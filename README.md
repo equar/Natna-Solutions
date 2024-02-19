@@ -3,19 +3,19 @@
 
 
 
-# Sample REST CRUD API with Spring Boot, Mysql, JPA and Hibernate 
+# Natna Solutions REST API with Spring Boot, Mysql, JPA and Hibernate 
 
 ## Steps to Setup
 
 **1. Clone the application**
 
 ```bash
-https://github.com/givanthak/spring-boot-rest-api-tutorial.git
+https://github.com/equar/Natna-Solutions
 ```
 
 **2. Create Mysql database**
 ```bash
-create database user_database
+create database natna
 ```
 
 **3. Change mysql username and password as per your installation**
@@ -28,7 +28,7 @@ create database user_database
 
 ```bash
 mvn package
-java -jar target/spring-boot-rest-api-tutorial-0.0.1-SNAPSHOT.jar
+java -jar target/natna-solutions-0.0.1-SNAPSHOT.jar
 
 ```
 
@@ -54,6 +54,4 @@ The app defines following CRUD APIs.
     
     DELETE /api/v1/users/{userId}
 
-You can find the tutorial for this application on my blog -
 
-<https://www.prathapgivantha.wordpress.com>
